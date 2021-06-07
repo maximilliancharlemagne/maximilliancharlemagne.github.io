@@ -11,11 +11,13 @@ const MainPage = () => {
   return (
       <Container>
           <Grid container spacing = {2}>
-              <Grid item>
-                  Potato
-              </Grid>
-              <Grid item>
-                  Tomato
+              <Grid container item>
+                  <Grid item>
+                      Potato
+                  </Grid>
+                  <Grid item>
+                      Tomato
+                  </Grid>
               </Grid>
           </Grid>
       </Container>
