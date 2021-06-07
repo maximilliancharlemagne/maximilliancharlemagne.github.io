@@ -1,8 +1,12 @@
+import React from "react";
+
+//import components
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      ayy it's a react app
+      <Navbar></Navbar>
     </div>
   );
 }
